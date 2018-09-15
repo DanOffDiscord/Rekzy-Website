@@ -64,12 +64,174 @@
 							<tr>
 								<th><abbr title="Command Name">Name</abbr></th>
 								<th><abbr title="Command Description">Description</abbr></th>
+								<th><abbr title="Command Permission Level">Permission</abbr></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th>Coming Soon</th>
-								<th>™</th>
+								<th>botinfo</th>
+								<th>Shows basic information about Rekzy.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>botowner</th>
+								<th>Shows the owner of Rekzy.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>botstats</th>
+								<th>Shows Rekzy's statistics.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>createinvite</th>
+								<th>Creates a new permanent invite link for your server.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>find</th>
+								<th>Finds the user via a chosen mention.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>fortnite</th>
+								<th>Searches for a Fortnite player on a chosen platform.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>help</th>
+								<th>Lists all available commands.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>servericon</th>
+								<th>Displays the server icon of your server.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>support</th>
+								<th>Posts a link to the Rekzy Support Server, as well as instructions of how to join.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>userinfo</th>
+								<th>Posts basic information about your user, or a mentioned user.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>ban</th>
+								<th>Bans a mentioned user.</th>
+								<th>BAN_MEMBERS permission</th>
+							</tr>
+							<tr>
+								<th>kick</th>
+								<th>Kicks a mentioned user.</th>
+								<th>KICK_MEMBERS permission</th>
+							</tr>
+							<tr>
+								<th>delwarn</th>
+								<th>Allows you to delete a warning from the database via it's ID.</th>
+								<th>BAN_MEMBERS permission</th>
+							</tr>
+							<tr>
+								<th>poll</th>
+								<th>Starts a poll with a given topic.</th>
+								<th>moderator</th>
+							</tr>
+							<tr>
+								<th>purge</th>
+								<th>Bulk deletes a given number of messages.</th>
+								<th>MANAGE_MESSAGES permission</th>
+							</tr>
+							<tr>
+								<th>weather</th>
+								<th>Gets the latest weather report for a given location.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>np</th>
+								<th>Shows the song that is currently playing, if any.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>play</th>
+								<th>Plays a specific song in a given voice channel.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>queue</th>
+								<th>Shows a list of songs that are currently queued.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>unban</th>
+								<th>Unbans a member via their Discord username or ID.</th>
+								<th>BAN_MEMBERS permission</th>
+							</tr>
+							<tr>
+								<th>warn</th>
+								<th>Warns a given user.</th>
+								<th>MANAGE_MESSAGES permission</th>
+							</tr>
+							<tr>
+								<th>warnings</th>
+								<th>Lists the warnings a user has.</th>
+								<th>MANAGE_MESSAGES permission</th>
+							</tr>
+							<tr>
+								<th>eval</th>
+								<th>Evaluates given JavaScript code.</th>
+								<th>maintainer</th>
+							</tr>
+							<tr>
+								<th>role</th>
+								<th>Gives a specified user a role with a given name.</th>
+								<th>maintainer</th>
+							</tr>
+							<tr>
+								<th>search</th>
+								<th>Searches for a video on YouTube, then plays it in a given voice channel.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>skip</th>
+								<th>Skips the song that is currently playing/</th>
+								<th>MANAGE_CHANNELS permission</th>
+							</tr>
+							<tr>
+								<th>stop</th>
+								<th>Stops the song that is currently playing.</th>
+								<th>MANAGE_CHANNELS permission</th>
+							</tr>
+							<tr>
+								<th>summon</th>
+								<th>Summons Rekzy to the voice channel you're in.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>lockdown</th>
+								<th>Locks down/releases a given channel.</th>
+								<th>MANAGE_CHANNELS permission</th>
+							</tr>
+							<tr>
+								<th>profile</th>
+								<th>Shows the profile of your user or a given user.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>rank</th>
+								<th>Shows your current rank, and how long to go until you level up.</th>
+								<th>everyone</th>
+							</tr>
+							<tr>
+								<th>setlevel</th>
+								<th>Allows you to set the level of a given user.</th>
+								<th>MANAGE_GUILD permission</th>
+							</tr>
+							<tr>
+								<th>settings</th>
+								<th>Allows you to set/remove various server properties.</th>
+								<th>MANAGE_GUILD permission</th>
 							</tr>
 						</tbody>
 						<tfoot>
@@ -90,5 +252,10 @@
 			</div>
 		</footer>
 		<script src="js/navbar.js"></script>
+		<style>
+			footer.foooter {
+				position: relative;
+			}
+		</style>
 	</body>
 </html>
